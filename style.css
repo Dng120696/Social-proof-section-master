@@ -54,7 +54,7 @@ body::before{
 .container-center{
   max-width: 1200px;
   width: 100%;
-  min-height: 80vh;
+  min-height: 70vh;
   padding: 2rem;
  
 }
@@ -95,6 +95,9 @@ div.left-content p{
 
   font-weight: var(--fw-700);
   border-radius: 5px;
+}
+.star-box p{
+  color: var(--Very-Dark-Magenta);
 }
 .starbox-1{
   align-self: flex-start;
@@ -143,7 +146,7 @@ i:last-of-type{
 }
 .box-content{
   line-height: 1.5;
-  opacity: 0.8;
+  
 }
 .lime-1{
   align-self: flex-start;
@@ -210,7 +213,4 @@ i:last-of-type{
  .box-name{
   flex-direction: row;
  }
- 
- 
-
 }
