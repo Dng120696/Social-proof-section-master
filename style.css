@@ -107,6 +107,7 @@ div.left-content p{
 }
 i{
   color: var(--orange);
+
 }
 i:last-of-type{
   margin-right: 2rem;
@@ -178,16 +179,16 @@ i:last-of-type{
   }
   body{
     overflow: visible;
-    min-height: 100vh;
-    max-width: 100%;
     text-align: center;
+    
   }
   .flex{
     flex-direction: column;
     justify-content:stretch;
+    width: 100%;
   }
   .container-center{
-    padding: 5rem 3rem;
+    padding:4rem 2rem;
   }
   div.left-content{
     display: flex;
@@ -196,12 +197,18 @@ i:last-of-type{
   }
   section.header{
     gap:1rem;
-  }
-  
+  } 
  .starbox-1, .starbox-2, .starbox-3{
-     align-self: center;
-    width: 100%;
-      
+     align-self: center;   
+ }
+ .star-box p{
+  margin-top: 1rem;
+ }
+ i:last-child{
+  margin: 0;
+ }
+ .box-name{
+  flex-direction: row;
  }
  
  
